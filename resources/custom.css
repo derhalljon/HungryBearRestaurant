@@ -5,7 +5,6 @@ body, html {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     line-height: 1.8;
-    background-image: url(/images/restaurant.jpg);
     background-color: antiquewhite;
     background-size: cover;
 
@@ -21,6 +20,8 @@ body, html {
 .navbar-brand img {
     width: 100px;
     height: auto;
+    outline: 4px lightgray solid;
+    border-radius: 50%;
 
 }
 
@@ -35,7 +36,7 @@ body, html {
 
 /* NAVBAR END */
 
-/* JUMBOTRON START */
+/* JUMBOTRON MAIN PAGE START */
 
 .jumbotron-background-color {
     background: rgba(169, 169, 169, 0.7);
@@ -48,7 +49,7 @@ body, html {
 }
 
 .jumbotron p {
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding-bottom: 10px
     
 }
@@ -59,6 +60,107 @@ body, html {
     
 }
 
+.jumbotron h4 {
+    font-size: 3rem;
+    padding-bottom: 0.5em;
+
+}
+
+.charcoal-image {
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 2.5em;
+
+}
+
+/* JUMBOTRON MAIN PAGE END */
+
+/* CARDS START */
+
+card {
+    background: none;
+
+}
+
+/* OLD PHOTOS START */
+
+.old-photos-row {
+    padding-bottom: 20px;
+
+}
+
+.old-photos {
+    max-width: 450px;
+    max-height: 333px;
+    width: 100%;
+    height: auto;
+
+}
+
+.img-thumbnail {
+    padding: 0;
+
+}
+
+.old-photo-heading {
+    color: none;
+
+}
+
+/* OLD PHOTOS END */
+
+/* CARDS END*/
+
+/* MAIN MENU PAGE START */
+
+.main-restaurant-menu {
+    width: 700px;
+    height: auto;
+
+}
+
+.main-menu-text {
+    text-decoration: underline;
+
+}
+
+/* MAIN MENU PAGE END */
+
+/* MENU PAGE START */
+/* CAROUSEL START*/
+.menu-carousel-items {
+    width: 100%;
+    height: 400px;
+}
+
+/* CAROUSEL END */
 
 
-/* JUMBOTRON END */
+/* MENU PAGE END */
+
+
+/* FOOTER START */
+
+.all-rights {
+    font-size: 0.7rem;
+
+}
+
+.footer-email-address {
+    text-decoration: none;
+    color: black;
+
+}
+
+footer a {
+    color: black;
+}
+
+.footer-copyright-bottom {
+    background-color: antiquewhite;
+    height: auto;
+}
+/* FOOTER END */
+
