@@ -34,6 +34,11 @@ body, html {
 
 }
 
+.nav-link {
+    text-align: center;
+
+}
+
 /* NAVBAR END */
 
 /* JUMBOTRON MAIN PAGE START */
@@ -93,7 +98,7 @@ card {
 
 .old-photos {
     max-width: 450px;
-    max-height: 333px;
+    max-height: auto;
     width: 100%;
     height: auto;
 
@@ -110,6 +115,10 @@ card {
 }
 
 /* OLD PHOTOS END */
+
+/* AWARDS IMAGES START */
+
+/* AWARDS IMAGES END */
 
 /* CARDS END*/
 
@@ -162,5 +171,17 @@ footer a {
     background-color: antiquewhite;
     height: auto;
 }
+
+.opening-times p {
+    line-height: 1;
+
+}
+
+.contact-us-info h5,
+.opening-times h5 {
+    text-decoration: underline;
+    
+}
+
 /* FOOTER END */
 
