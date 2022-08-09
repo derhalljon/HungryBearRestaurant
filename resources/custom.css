@@ -41,10 +41,11 @@ body, html {
 
 /* NAVBAR END */
 
-/* JUMBOTRON MAIN PAGE START */
+/* JUMBOTRON START */
 
 .jumbotron-background-color {
     background: rgba(169, 169, 169, 0.7);
+    
 }
 
 .jumbotron-text {
@@ -80,7 +81,7 @@ body, html {
 
 }
 
-/* JUMBOTRON MAIN PAGE END */
+/* JUMBOTRON END */
 
 /* CARDS START */
 
@@ -116,10 +117,6 @@ card {
 
 /* OLD PHOTOS END */
 
-/* AWARDS IMAGES START */
-
-/* AWARDS IMAGES END */
-
 /* CARDS END*/
 
 /* MAIN MENU PAGE START */
@@ -138,6 +135,7 @@ card {
 /* MAIN MENU PAGE END */
 
 /* MENU PAGE START */
+
 /* CAROUSEL START*/
 .menu-carousel-items {
     width: 100%;
@@ -146,9 +144,19 @@ card {
 
 /* CAROUSEL END */
 
-
 /* MENU PAGE END */
 
+/* GOOGLE MAP START */
+
+.google-map-small {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* GOOGLE MAP END */
 
 /* FOOTER START */
 
@@ -165,11 +173,13 @@ card {
 
 footer a {
     color: black;
+
 }
 
 .footer-copyright-bottom {
     background-color: antiquewhite;
     height: auto;
+
 }
 
 .opening-times p {
@@ -184,4 +194,3 @@ footer a {
 }
 
 /* FOOTER END */
-
