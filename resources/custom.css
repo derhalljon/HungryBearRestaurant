@@ -15,6 +15,16 @@ body, html {
 
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+#location {
+    font-family: 'Libre Baskerville', serif;
+    
+}
+
 /* NAVBAR LOGO START */
 
 .navbar-brand img {
@@ -31,6 +41,7 @@ body, html {
 
 .nav-item {
     font-size: 1.5em;
+    text-transform: uppercase;
 
 }
 
@@ -45,19 +56,20 @@ body, html {
 
 .jumbotron-background-color {
     background: rgba(169, 169, 169, 0.7);
-    
+
 }
 
 .jumbotron-text {
     padding-left: 20%;
     padding-right: 20%;
+    font-family: 'Libre Baskerville', serif;
     
 }
 
 .jumbotron p {
     font-size: 1.5em;
-    padding-bottom: 10px
-    
+    padding-bottom: 10px;
+
 }
 
 .jumbotron h2 {
@@ -110,9 +122,11 @@ card {
 
 }
 
-.old-photo-heading {
-    color: none;
-
+.card-header {
+    text-transform: uppercase;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.8em;
+    letter-spacing: 1.2pt;
 }
 
 /* OLD PHOTOS END */
@@ -194,3 +208,9 @@ footer a {
 }
 
 /* FOOTER END */
+
+/*
+
+
+
+*/
