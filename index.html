@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-        <link href="resources/custom.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="resources/custom.css" type="text/css">
+        <link rel="stylesheet" href="resources/glightbox.min.css">
         <link rel="tab icon" href="/images/favicon.ico">
         <link href="" rel="icon" type="image/png" sizes="16x16">
         <link href="" rel="icon" type="image/png" sizes="32x32">
@@ -62,45 +63,45 @@
             </p>
             <div class="container p-0">
                 <div class="row old-photos-row justify-content-center">
-                <div class="col-8 col-md-6 p-0">
-                    <div class="card mt-2 bg-transparent">
+                    <div class="col-8 col-md-6 p-0">
                         <div class="card-header text-center text-white font-weight-bold p-0 m-0 border-0 d-none d-lg-block">
                             Grilled Pork Ribs
                         </div>
-                        <img class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat1.jpeg" alt="Old photo of meat being grilled">
-                    </div>
+                        <a href="/images/old-grill-meat1.jpeg" class="glightbox">
+                        <img class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat1.jpeg" data-mdb-img="/images/old-grill-meat1.jpeg" title="Grilled Pork Ribs" alt="Old photo of meat being grilled">
+                    </a>
                 </div>
                 <div class="col-8 col-md-6 p-0">
-                    <div class="card mt-2 bg-transparent">
                         <div class="card-header text-center text-white font-weight-bold p-0 m-0 border-0 d-none d-lg-block">
                             Roasted Meat Joint
                         </div>
-                        <img class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat2.jpeg" alt="Old photo of large piece of meat on a spit">
-                    </div>
+                        <a href="/images/old-grill-meat2.jpeg" class="glightbox">
+                            <img id="old-photo" onclick="enlargeImg()" class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat2.jpeg" title="Roasted Meat Joint" alt="Old photo of large piece of meat on a spit">
+                        </a>
                 </div>
                 <div class="col-8 col-md-6 p-0">
-                    <div class="card mt-2 bg-transparent">
                         <div class="card-header text-center text-white font-weight-bold p-0 m-0 border-0 d-none d-lg-block">
                             The First Hungry Bear Restaurant
                         </div>
-                        <img class="card-img-top old-photos img-fluid p-1" src="/images/old-cabin.jpeg" alt="Old photo of a log cabin">
-                    </div>
+                        <a href="/images/old-cabin.jpeg" class="glightbox">
+                            <img id="old-photo" onclick="enlargeImg()" class="card-img-top old-photos img-fluid p-1" src="/images/old-cabin.jpeg" title="The First Hungry Bear Restaurant" alt="Old photo of a log cabin">
+                        </a>
                 </div>
                 <div class="col-8 col-md-6 p-0">
-                    <div class="card mt-2 bg-transparent">
                         <div class="card-header text-center text-white font-weight-bold p-0 m-0 border-0 d-none d-lg-block">
                             Grilled Pork steaks
                         </div>
-                        <img class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat3.jpeg" alt="Old photo of meat lying on a rustic grill">
-                    </div>
+                        <a href="/images/old-grill-meat3.jpeg" class="glightbox">
+                            <img id="old-photo" onclick="enlargeImg()" class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat3.jpeg" title="Grilled Pork steaks" alt="Old photo of meat lying on a rustic grill">
+                        </a>
                 </div>
                 <div class="col-8 col-md-6 p-0">
-                    <div class="card mt-2 bg-transparent">
                         <div class="card-header text-center text-white font-weight-bold p-0 m-0 border-0 d-none d-lg-block">
                             Grilled Meat Skewer
                         </div>
-                        <img class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat4.jpeg" alt="Old photo of a skewer with meat">
-                    </div>
+                        <a href="/images/old-grill-meat4.jpeg" class="glightbox">
+                            <img id="old-photo" onclick="enlargeImg()" class="card-img-top old-photos img-fluid p-1" src="/images/old-grill-meat4.jpeg" title="Grilled Meat Skewer" alt="Old photo of a skewer with meat">
+                        </a>
                 </div>
                 </div>
             </div>
@@ -122,7 +123,6 @@
                 <div class="food-menu-button text-center pb-3">
                     <a href="/bookings.html"><button type="button" class="btn btn-danger btn-block btn-lg">Book A Table</button></a>
                 </div>
-            
             <h4 class="company-motto text-white text-center font-weight-bold font-italic pt-5">
                 Our Awards
             </h4>
@@ -147,6 +147,34 @@
       </div>
     </div>
     </div>
+    <div class="lightbox">
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/1.webp"
+              data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/1.webp"
+              alt="Table Full of Spices"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/2.webp"
+              data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/2.webp"
+              alt="Winter Landscape"
+              class="w-100"
+            />
+          </div>
+          <div class="col-lg-4">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Thumbnails/Slides/3.webp"
+              data-mdb-img="https://mdbcdn.b-cdn.net/img/Photos/Slides/3.webp"
+              alt="View of the City in the Mountains"
+              class="w-100"
+            />
+          </div>
+        </div>
+      </div>
     <footer class="page-footer font-small bg-light">
         <div class="container p-3">
             <div class="row justify-content-center">
@@ -186,5 +214,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <script src="dist/js/glightbox.min.js"></script>
+    <script src="js/glightbox.min.js"></script>
+    <script>
+            const lightbox = GLightbox({ loop: true });
+        </script>    
+            </body>
+            </html>
