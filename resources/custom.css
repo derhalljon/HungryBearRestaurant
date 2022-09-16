@@ -16,7 +16,7 @@ body, html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif!important;
 
 }
 
@@ -60,13 +60,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron-text {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 20%!important;
+    padding-right: 20%!important;
     font-family: 'Libre Baskerville', serif;
     
 }
 
-@media (min-width: 600px) {
+@media (max-width: 978px) {
 
     .jumbotron-text {
         padding-left: 0;
@@ -120,13 +120,15 @@ card {
 /* OLD PHOTOS START */
 
 .old-photos-row {
-    padding-bottom: 20px;
+    padding-bottom: 20px!important;
 
 }
 
+
+
 .old-photos {
-    max-width: 450px;
-    max-height: auto;
+    max-width: 505px!important;
+    max-height: auto!important;
     width: 100%;
     height: auto;
 
@@ -137,6 +139,7 @@ card {
     font-family: 'Libre Baskerville', serif;
     font-size: 0.8em;
     letter-spacing: 1.2pt;
+    
 }
 
 /* OLD PHOTOS END */
