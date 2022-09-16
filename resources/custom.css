@@ -102,6 +102,12 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+.awards-images {
+    max-width: 280px;
+    align-self: center;
+
+}
+
 /* JUMBOTRON END */
 
 /* CARDS START */
@@ -136,6 +142,15 @@ card {
 /* OLD PHOTOS END */
 
 /* CARDS END*/
+
+/* BUTTONS START */
+
+.page-button {
+    width: 250px;
+
+}
+
+/* BUTTONS END */
 
 /* MAIN MENU PAGE START */
 
